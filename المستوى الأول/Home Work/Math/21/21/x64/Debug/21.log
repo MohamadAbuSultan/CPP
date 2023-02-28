@@ -1,0 +1,4 @@
+﻿  21.cpp
+C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Math\21\21\21.cpp(11,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Math\21\21\21.cpp(13,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  21.vcxproj -> C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Math\21\x64\Debug\21.exe
