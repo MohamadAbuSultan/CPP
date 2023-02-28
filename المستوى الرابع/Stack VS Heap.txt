@@ -1,0 +1,7 @@
+RAM : Memory 
+طبعاً الستاك والهيب في الرام
+
+4- Heap: any dynamic variables/objects/arrays..etc
+3- Stack : local variables/functions/pointers
+2- Static / Global  Variables
+1- Source Code / Instructions
