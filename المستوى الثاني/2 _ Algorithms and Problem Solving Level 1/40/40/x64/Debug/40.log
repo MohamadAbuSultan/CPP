@@ -1,0 +1,4 @@
+﻿  40.cpp
+C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\40\40\40.cpp(25,18): warning C4305: '*=': truncation from 'double' to 'float'
+C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\40\40\40.cpp(26,19): warning C4305: '*=': truncation from 'double' to 'float'
+  40.vcxproj -> C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\40\x64\Debug\40.exe
