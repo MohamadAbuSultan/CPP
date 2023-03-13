@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "23 _ How to remove elemnts in Vectors", "23 _ How to remove elemnts in Vectors\23 _ How to remove elemnts in Vectors.vcxproj", "{B504BBAC-D08D-4FFC-93FD-650DF2E72553}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B504BBAC-D08D-4FFC-93FD-650DF2E72553}.Debug|x64.ActiveCfg = Debug|x64
+		{B504BBAC-D08D-4FFC-93FD-650DF2E72553}.Debug|x64.Build.0 = Debug|x64
+		{B504BBAC-D08D-4FFC-93FD-650DF2E72553}.Debug|x86.ActiveCfg = Debug|Win32
+		{B504BBAC-D08D-4FFC-93FD-650DF2E72553}.Debug|x86.Build.0 = Debug|Win32
+		{B504BBAC-D08D-4FFC-93FD-650DF2E72553}.Release|x64.ActiveCfg = Release|x64
+		{B504BBAC-D08D-4FFC-93FD-650DF2E72553}.Release|x64.Build.0 = Release|x64
+		{B504BBAC-D08D-4FFC-93FD-650DF2E72553}.Release|x86.ActiveCfg = Release|Win32
+		{B504BBAC-D08D-4FFC-93FD-650DF2E72553}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92239503-5D4A-4829-BA02-882DED40BD32}
+	EndGlobalSection
+EndGlobal
