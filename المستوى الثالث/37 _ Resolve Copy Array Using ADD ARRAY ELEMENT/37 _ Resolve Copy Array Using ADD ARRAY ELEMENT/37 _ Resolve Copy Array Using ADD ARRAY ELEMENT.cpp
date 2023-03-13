@@ -34,8 +34,7 @@ void AddArrayElement(int Number, int arr[100], int& arrLength)
 void CopyArrayUsingAddArrayElement(int arrSource[100], int arrDestination[100], int arrLength, int& arrDestinationLength)
 {
 	for (int i = 0; i < arrLength; i++)
-		AddArrayElement(arrSource[i], arrDestination,
-			arrDestinationLength);
+		AddArrayElement(arrSource[i], arrDestination, arrDestinationLength);
 }
 
 int main() {
