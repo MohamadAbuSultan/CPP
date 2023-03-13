@@ -50,8 +50,7 @@ void CopyPrimeNumbers(int arrSource[100], int arrDestination[100],int arrLength,
 	for (int i = 0; i < arrLength; i++)
 		if (CheckPrime(arrSource[i]) == enPrimNotPrime::Prime)
 		{
-			AddArrayElement(arrSource[i], arrDestination,
-				arrDestinationLength);
+			AddArrayElement(arrSource[i], arrDestination, arrDestinationLength);
 		}
 }
 
