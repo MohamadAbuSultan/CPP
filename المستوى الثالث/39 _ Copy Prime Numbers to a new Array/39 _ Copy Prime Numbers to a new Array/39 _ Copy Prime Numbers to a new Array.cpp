@@ -40,7 +40,6 @@ void PrintArray(int arr[100], int arrLength)
 
 void AddArrayElement(int Number, int arr[100], int& arrLength)
 {
-	//its a new element so we need to add the length by 1
 	arrLength++;
 	arr[arrLength - 1] = Number;
 }
@@ -56,8 +55,6 @@ void CopyPrimeNumbers(int arrSource[100], int arrDestination[100],int arrLength,
 
 int main()
 {
-
-
 	srand((unsigned)time(NULL));
 
 	int arr[100], arrLength = 0, arr2Length = 0;
