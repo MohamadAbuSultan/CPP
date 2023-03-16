@@ -1,18 +1,6 @@
 ﻿
-
-
-
-
-
-
-ProgrammingAdvices.com
-© Copyright 2022
-
-Problem # 40 / 2 Solution Using C++
-
-
-
 #include <iostream> 
+
 using namespace std;
 
 void FillArray(int arr[100], int& arrLength)
@@ -38,8 +26,7 @@ void PrintArray(int arr[100], int arrLength)
     cout << "\n";
 }
 
-short FindNumberPositionInArray(int Number, int arr[100], int
-    arrLength)
+short FindNumberPositionInArray(int Number, int arr[100], int arrLength)
 {
 
     for (int i = 0; i < arrLength; i++)
@@ -57,17 +44,6 @@ bool IsNumberInArray(int Number, int arr[100], int arrLength)
 {
     return FindNumberPositionInArray(Number, arr, arrLength) != -1;
 }
-
-
-
-
-
-
-ProgrammingAdvices.com
-© Copyright 2022
-
-Problem # 40 / 2 Solution Using C++
-
 
 void AddArrayElement(int Number, int arr[100], int& arrLength)
 {
