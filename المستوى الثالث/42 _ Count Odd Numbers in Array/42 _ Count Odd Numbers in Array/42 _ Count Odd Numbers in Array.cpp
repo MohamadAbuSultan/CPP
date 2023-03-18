@@ -1,20 +1,57 @@
-﻿// 42 _ Count Odd Numbers in Array.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+﻿
 
 #include <iostream>
 
-int main()
+using namespace std;
+
+int RandomNumbers(int From, int To)
 {
-    std::cout << "Hello World!\n";
+    int randNum = rand() % (To - From + 1) + From;
+    return randNum;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+void FillArrayWithRandomNumbers(int arr[100], int& arrLength)
+{
+    cout << "\nrandom numbers : \n";
+    cin >> arrLength;
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+    for (int i = 0; i < arrLength; i++)
+        arr[i] = RandomNumbers(1, 100);
+}
+
+void PrintArray(int arr[100], int arrLength)
+{
+    for (int i = 0; i < arrLength; i++)
+        cout << arr[i] << " ";
+    cout << "\n";
+}
+
+int CountOddNumbers(int arr[100], int arrLength)
+{
+    int Counter = 0;
+    for (int i = 0; i < arrLength; i++)
+    {
+        if (arr[i] % 2 != 0) {
+             Counter++;
+        }
+    }
+    return Counter;
+}
+
+int main()
+{
+    //Seeds the random number generator in C++, called only once 
+    srand((unsigned)time(NULL));
+
+    int arr[100], arrLength;
+
+    FillArrayWithRandomNumbers(arr, arrLength);
+
+    cout << "\nArray Elements: ";
+    PrintArray(arr, arrLength);
+
+    cout << "\nOdd Numbers count is: ";
+    cout << CountOddNumbers(arr, arrLength) << endl;
+
+    return 0;
+}
