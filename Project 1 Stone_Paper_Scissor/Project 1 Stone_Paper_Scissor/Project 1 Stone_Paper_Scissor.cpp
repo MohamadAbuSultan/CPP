@@ -120,7 +120,8 @@ void PrintRoundResults(stRoundInfo RoundInfo)
 
 }
 
-enWinner WhoWonTheGame(short Player1WinTimes, short ComputerWinTimes)
+enWinner WhoWonTheGame(short Player1WinTimes, short
+    ComputerWinTimes)
 {
 
     if (Player1WinTimes > ComputerWinTimes)
@@ -132,7 +133,8 @@ enWinner WhoWonTheGame(short Player1WinTimes, short ComputerWinTimes)
 
 }
 
-stGameResults FillGameResults(int GameRounds, short Player1WinTimes, short ComputerWinTimes, short DrawTimes)
+stGameResults FillGameResults(int GameRounds, short
+    Player1WinTimes, short ComputerWinTimes, short DrawTimes)
 {
 
     stGameResults GameResults;
@@ -155,7 +157,6 @@ enGameChoice ReadPlayer1Choice()
 
     do
     {
-
         cout << "\nYour Choice: [1]:Stone, [2]:Paper, [3]:Scissors ? "; 
             cin >> Choice;
 
@@ -214,18 +215,21 @@ string  Tabs(short NumberOfTabs)
 
 }
 
+
 void ShowGameOverScreen()
 {
-    cout << Tabs(2) << "__________________________________________________________\n\n";
+    cout << Tabs(2) <<
+        "__________________________________________________________\n\n";
     cout << Tabs(2) << "                 +++ G a m e  O v e r ++ + \n"; 
-        cout << Tabs(2) << "__________________________________________________________\n\n";
+        cout << Tabs(2) <<
+        "__________________________________________________________\n\n";
 
 }
 
 void ShowFinalGameResults(stGameResults GameResults)
 {
 
-    cout << Tabs(2) << "_____________________ [Game Results ]_____________________\n\n"; 
+    cout << Tabs(2) << "_____________________ [Game Results]_____________________\n\n"; 
 cout << Tabs(2) << "Game Rounds        : " <<
 GameResults.GameRounds << endl;
     cout << Tabs(2) << "Player1 won times  : " <<
@@ -260,7 +264,6 @@ void ResetScreen()
 {
     system("cls");
     system("color 0F");
-
 }
 
 void StartGame()
