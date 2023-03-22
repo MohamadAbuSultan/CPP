@@ -38,7 +38,7 @@ void PrintMatrix(int arr[3][3], short Rows, short Cols)
 int RowSum(int arr[3][3], short RowNumber, short Cols)
 {
 	int Sum = 0;
-	for (short j = 0; j <= Cols - 1; j++)
+	for (short j = 0; j < Cols; j++)
 	{
 		Sum += arr[RowNumber][j];
 	}
