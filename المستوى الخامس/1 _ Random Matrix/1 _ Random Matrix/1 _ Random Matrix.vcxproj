@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bbfca469-bfac-41fb-b66a-bb8a13585957}</ProjectGuid>
+    <ProjectGuid>{2d8d6128-87e7-40e2-b1c0-c15b8c7c5bd0}</ProjectGuid>
     <RootNamespace>My1RandomMatrix</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
