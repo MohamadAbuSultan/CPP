@@ -1,9 +1,0 @@
-﻿  34.cpp
-C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\34\34\34.cpp(23,14): warning C4305: 'return': truncation from 'double' to 'float'
-C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\34\34\34.cpp(25,14): warning C4305: 'return': truncation from 'double' to 'float'
-C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\34\34\34.cpp(27,14): warning C4305: 'return': truncation from 'double' to 'float'
-C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\34\34\34.cpp(29,14): warning C4305: 'return': truncation from 'double' to 'float'
-C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\34\34\34.cpp(43,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\34\34\34.cpp(44,63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\34\34\34.cpp(45,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  34.vcxproj -> C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\34\x64\Debug\34.exe

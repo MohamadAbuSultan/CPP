@@ -1,0 +1,4 @@
+﻿  20 _ Circle Area Square.cpp
+C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Function Part 3 - Parameters\20 _ Circle Area Square\20 _ Circle Area Square\20 _ Circle Area Square.cpp(8,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Function Part 3 - Parameters\20 _ Circle Area Square\20 _ Circle Area Square\20 _ Circle Area Square.cpp(9,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  20 _ Circle Area Square.vcxproj -> C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Function Part 3 - Parameters\20 _ Circle Area Square\x64\Debug\20 _ Circle Area Square.exe

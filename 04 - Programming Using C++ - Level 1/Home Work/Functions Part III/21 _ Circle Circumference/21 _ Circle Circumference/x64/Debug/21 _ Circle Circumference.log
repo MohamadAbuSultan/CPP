@@ -1,4 +1,0 @@
-﻿  21 _ Circle Circumference.cpp
-C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Function Part 3 - Parameters\21 _ Circle Circumference\21 _ Circle Circumference\21 _ Circle Circumference.cpp(7,26): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Function Part 3 - Parameters\21 _ Circle Circumference\21 _ Circle Circumference\21 _ Circle Circumference.cpp(8,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  21 _ Circle Circumference.vcxproj -> C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Function Part 3 - Parameters\21 _ Circle Circumference\x64\Debug\21 _ Circle Circumference.exe

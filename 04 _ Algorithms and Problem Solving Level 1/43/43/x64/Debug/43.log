@@ -1,0 +1,5 @@
+﻿  43.cpp
+C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\43\43\43.cpp(37,35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\43\43\43.cpp(40,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\43\43\43.cpp(43,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  43.vcxproj -> C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\سلسلة الخوارزميات وحل المشاكل مستوى أول\43\x64\Debug\43.exe

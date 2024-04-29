@@ -1,0 +1,4 @@
+﻿  19.cpp
+C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Math\19\19\19.cpp(11,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Math\19\19\19.cpp(13,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  19.vcxproj -> C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Math\19\x64\Debug\19.exe

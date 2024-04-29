@@ -1,4 +1,0 @@
-﻿  18.cpp
-C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Math\18\18\18.cpp(13,23): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Math\18\18\18.cpp(15,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  18.vcxproj -> C:\Users\CROSSHAIR 15\.My_Learning\.C++\Introduction to Programming Using C++\Home Work\Math\18\x64\Debug\18.exe
