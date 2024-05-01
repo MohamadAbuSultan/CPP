@@ -1,0 +1,11 @@
+struct StructName {
+    // Member variables
+    DataType1 memberVariable1;
+    DataType2 memberVariable2;
+    // ...
+    
+    // Member functions
+    ReturnType memberFunction1(Parameters);
+    ReturnType memberFunction2(Parameters);
+    // ...
+};

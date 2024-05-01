@@ -1,0 +1,30 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+
+using namespace std;
+
+struct EmployeeSalary{
+    int monthlySalary;
+    int yearlySalary;
+};
+
+struct PersonalInformation{
+  string name;
+  int Age;
+  string City;
+  EmployeeSalary employeeSalary;
+};
+
+int main() {
+    PersonalInformation personalInfo;
+    personalInfo.name = "Mohamad Khaled";
+    personalInfo.Age = 22;
+    personalInfo.City = "Gaza";
+    personalInfo.employeeSalary.monthlySalary = 1;
+
+    cout << "Name : "<< personalInfo.name << endl;
+    cout << "Age : "<< personalInfo.Age << endl;
+    cout << "City : "<< personalInfo.City << endl;
+    cout << "Monthly Salary : "<< personalInfo.employeeSalary.monthlySalary << "$" << endl;
+    cout << "Yearly Salary : "<< personalInfo.employeeSalary.monthlySalary * 12<< "$" << endl;
+}
