@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My_Learning\\CPP\\05 - Algorithms \u0026 Problem-Solving Level 2\\05 _ Print Digits in a Reversed Order\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{785D4E95-C8AA-4226-958E-0CC0FA2BA453}|05 _ Print Digits in a Reversed Order\\05 _ Print Digits in a Reversed Order.vcxproj|D:\\My_Learning\\CPP\\05 - Algorithms \u0026 Problem-Solving Level 2\\05 _ Print Digits in a Reversed Order\\05 _ Print Digits in a Reversed Order\\05 _ Print Digits in a Reversed Order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{785D4E95-C8AA-4226-958E-0CC0FA2BA453}|05 _ Print Digits in a Reversed Order\\05 _ Print Digits in a Reversed Order.vcxproj|solutionrelative:05 _ Print Digits in a Reversed Order\\05 _ Print Digits in a Reversed Order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "05 _ Print Digits in a Reversed Order.cpp",
+              "DocumentMoniker": "D:\\My_Learning\\CPP\\05 - Algorithms \u0026 Problem-Solving Level 2\\05 _ Print Digits in a Reversed Order\\05 _ Print Digits in a Reversed Order\\05 _ Print Digits in a Reversed Order.cpp",
+              "RelativeDocumentMoniker": "05 _ Print Digits in a Reversed Order\\05 _ Print Digits in a Reversed Order.cpp",
+              "ToolTip": "D:\\My_Learning\\CPP\\05 - Algorithms \u0026 Problem-Solving Level 2\\05 _ Print Digits in a Reversed Order\\05 _ Print Digits in a Reversed Order\\05 _ Print Digits in a Reversed Order.cpp",
+              "RelativeToolTip": "05 _ Print Digits in a Reversed Order\\05 _ Print Digits in a Reversed Order.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-04T14:05:38.816Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
