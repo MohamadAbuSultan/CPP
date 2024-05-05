@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+int ReadPositiveNumber(string Message)
+{
+	int Number;
+	do
+	{
+		cout << Message << endl;
+		cin >> Number;
+	} while (Number <= 0);
+	return Number;
+}
+
+int CountDigitFrequency(int Number)
+{
+	short Number2;
+	int Reminder = 0, Sum = 0;
+	cin >> Number2;
+	while (Number > 0)
+	{
+		Reminder = Number % 10;
+		Number = Number / 10;
+		if (Reminder == Number2) Sum += 1;
+	}
+	return Sum;
+}
+
+int main()
+{
+	cout << CountDigitFrequency(ReadPositiveNumber("Enter A Positive Number"));
+}
