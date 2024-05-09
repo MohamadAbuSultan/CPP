@@ -29,10 +29,10 @@ bool IsPlaindromNumber(int Number) {
 }
 
 void PrintResult(int Number) {
-	if (IsPlaindromNumber(Number)) cout << Number << " is Plaindrom Number";
-	else cout << Number << " is not plaindrom number";
+	if (IsPlaindromNumber(Number)) { cout << Number << " is Plaindrom Number"; }
+	else { cout << Number << " is not plaindrom number"; }
 }
-int main()
-{
+int main() 
+{ 
 	PrintResult(ReadPositiveNumber("Enter A Positive Number : "));
 }
