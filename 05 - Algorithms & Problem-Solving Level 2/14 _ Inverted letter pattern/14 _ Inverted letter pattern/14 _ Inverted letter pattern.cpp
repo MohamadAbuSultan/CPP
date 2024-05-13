@@ -15,10 +15,15 @@ int ReadPositiveNumber(string Message) {
 void InvertedLetterPattern(int Number) {
 	for (int i = Number + 65 - 1; i >= 65; i--)
 	{
-		for (int j = (i - 65) + 1; j > 0; j--)
+		for (int j = 1; j <= Number - (Number + 65 - 1 - i); j++)
 		{
 			cout << char(i);
 		}
+		/* my_solution
+		for (int j = (i - 65) + 1; j > 0; j--)
+		{
+			cout << char(i);
+		}*/
 		cout << endl;
 	}
 }
