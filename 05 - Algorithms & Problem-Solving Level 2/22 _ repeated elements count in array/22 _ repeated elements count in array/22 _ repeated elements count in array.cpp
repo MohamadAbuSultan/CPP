@@ -7,7 +7,7 @@ int ReadPositiveNumber(string Message) {
 	int Number;
 	do
 	{
-		cout << Message << endl;
+		cout << Message << ": ";
 		cin >> Number;
 	} while (Number <= 0);
 	return Number;
@@ -44,11 +44,17 @@ void PrintOriginalArray(vector<int>& Result) {
 int main()
 {
 	int Number1 = ReadPositiveNumber("Enter A Positive Integer");
+	
+	cout << endl;
+
 	vector<int> NumbersOfArray = ReadArrayNumbers(Number1);
 
-	int Number2 = ReadPositiveNumber("Enter A Number To Check");
-	cout << "Count of repeated elements: " << PrintRepeatedElementsCount(NumbersOfArray, Number2) << endl;
+	int Number2 = ReadPositiveNumber("\n\nEnter A Number To Check");
 
-	cout << "Original array: ";
+	cout << "\nOriginal array: ";
 	PrintOriginalArray(NumbersOfArray);
+
+	cout << "\nNumber " << Number2 << " is Reapeted " << PrintRepeatedElementsCount(NumbersOfArray, Number2) << " times" << endl;
+
+	return 0;
 }
