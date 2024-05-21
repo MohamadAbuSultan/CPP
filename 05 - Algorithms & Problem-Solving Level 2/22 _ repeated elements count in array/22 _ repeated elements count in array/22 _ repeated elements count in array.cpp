@@ -1,60 +1,63 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
-int ReadPositiveNumber(string Message) {
-	int Number;
+int ReadPositiveNumber(string Message)
+{
+    int Number;
 	do
 	{
-		cout << Message << ": ";
+		cout << Message << " ";
 		cin >> Number;
 	} while (Number <= 0);
 	return Number;
 }
 
-vector<int> ReadArrayNumbers(int Number) {
-	vector<int> result;
-	int Number2;
-	for (int i = 1; i <= Number; i++)
+void ReadArrayElements(int arr[100], int& arrLength) {
+	
+	cout << "\nEnter number of elements:";
+	cin >> arrLength;
+
+	cout << "\nEnter Array of Elements:\n";
+	for (int i = 1; i <= arrLength; i++)
 	{
 		cout << "Element [" << i << "]: ";
-		cin >> Number2;
-		result.push_back(Number2);
+		cin >> arr[i];
 	}
-	return result;
+
+	cout << endl;
 }
 
-int PrintRepeatedElementsCount(vector<int> &Result, short numberToCheck) {
-	int Counter = 0;
-	for (int i = 0; i < Result.size(); i++)
+void PrintArrayElements(int arr[100], int arrLength) {
+	for (int i = 1; i <= arrLength; i++)
 	{
-		if (Result[i] == numberToCheck) Counter++;
+		cout << arr[i] << " ";
+	}
+	cout << "\n";
+}
+
+int TimesRepeated(int Number, int arr[100], int arrLength) {
+	int Counter = 0;
+	for (int i = 1; i <= arrLength; i++)
+	{
+		if (Number == arr[i]) Counter++;
 	}
 	return Counter;
 }
 
-void PrintOriginalArray(vector<int>& Result) {
-	for (int i = 0; i < Result.size(); i++)
-	{
-		cout << Result[i] << " ";
-	}
-}
-
 int main()
 {
-	int Number1 = ReadPositiveNumber("Enter A Positive Integer");
-	
-	cout << endl;
+	int arr[100], arrLength, NumberToCheck;
 
-	vector<int> NumbersOfArray = ReadArrayNumbers(Number1);
+	ReadArrayElements(arr, arrLength);
 
-	int Number2 = ReadPositiveNumber("\n\nEnter A Number To Check");
+	NumberToCheck = ReadPositiveNumber("Enter A Positive Element");
 
-	cout << "\nOriginal array: ";
-	PrintOriginalArray(NumbersOfArray);
+	cout << "\nOriginally array: ";
+	PrintArrayElements(arr, arrLength);
 
-	cout << "\nNumber " << Number2 << " is Reapeted " << PrintRepeatedElementsCount(NumbersOfArray, Number2) << " times" << endl;
-
-	return 0;
+	cout << "\nNumber " << NumberToCheck;
+	cout << " is reapeated ";
+	cout << TimesRepeated(NumberToCheck, arr, arrLength);
+	cout << " time(s)\n";
 }

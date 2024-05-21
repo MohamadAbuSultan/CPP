@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{50467081-70f3-4a9f-8055-cd144feed9fb}</ProjectGuid>
+    <ProjectGuid>{c88288f1-05a5-4203-8c9e-8b822de18886}</ProjectGuid>
     <RootNamespace>My22repeatedelementscountinarray</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
