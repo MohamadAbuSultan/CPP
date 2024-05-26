@@ -19,28 +19,22 @@ int GeneratRandomNumber(int From, int To) {
 
 void FillArrayWithRandomValues(int arr[100], int arrLength) {
 	for (int i = 0; i < arrLength; i++)
-	{
 		arr[i] = GeneratRandomNumber(1, 100);
-	}
 }
 
 void PrintArray(int arr[100], int arrLength) {
 	for (int i = 0; i < arrLength; i++)
-	{
 		cout << arr[i] << " ";
-	}
 }
 
-void CopyReversedArray(int arrSource[100],int arrDistination[100], int arrLength) {
+void CopyArrayInReversedOrder(int arrSource[100],int arrDistination[100], int arrLength) {
 	for (int i = 0; i < arrLength; i++)
-	{
 		arrDistination[i] = arrSource[arrLength - 1 - i];
-	}
-	/* MY_Solution
+	
+	/* 
+	MY_Solution
 	for (int i = arrLength - 1; i >= 0; i--)
-	{
-		arrDistination[arrLength - 1 - i] = arrSource[i];
-	}*/
+		arrDistination[arrLength - 1 - i] = arrSource[i];*/
 }
 
 int main()
@@ -56,7 +50,7 @@ int main()
 	PrintArray(arr, arrLength);
 
 	int arr2[100];
-	CopyReversedArray(arr, arr2, arrLength);
+	CopyArrayInReversedOrder(arr, arr2, arrLength);
 
 	cout << "\n\nArray2 Values: ";
 	PrintArray(arr2, arrLength);
