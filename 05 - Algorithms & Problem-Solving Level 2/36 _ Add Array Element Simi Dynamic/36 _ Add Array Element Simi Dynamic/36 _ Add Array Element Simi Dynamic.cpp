@@ -3,42 +3,55 @@
 using namespace std;
 
 int ReadPositiveNumber(string Message) {
-    int Number;
+    int inputNumber;
+
 	do
 	{
+
 		cout << Message << " ";
-		cin >> Number;
-	} while (Number <= 0);
-	return Number;
+
+		cin >> inputNumber;
+
+	} while (inputNumber <= 0);
+
+	return inputNumber;
 }
 
-int FillArrayWithValues(int arr[100], int &arrLength) {
-	int number;
-	bool check = true;
-	while (check)
+int FillArrayWithValues(int arr[100], int& numberOfElements) {
+	int inputNumber;
+	bool continueAddingNumbers = true;
+
+	do
 	{
-		number = ReadPositiveNumber("Enter A Number: ");
-		arr[arrLength] = number;
+		inputNumber = ReadPositiveNumber("Enter A Number: ");
+
+		arr[numberOfElements++] = inputNumber;
+
 		cout << "Do you want to add more number? 0 for no, 1 for yes / ";
-		cin >> check;
-		arrLength++;
-	}
-	return arrLength;
+		cin >> continueAddingNumbers;
+
+	} while (continueAddingNumbers && numberOfElements < 100);
+	
+	return numberOfElements;
 }
 
-void PrintArray(int arr[100], int arrLength) {
-	for (int i = 0; i < arrLength; i++)
+void PrintArray(int arr[100], int numberOfElements) {
+	for (int i = 0; i < numberOfElements; i++)
 		cout << arr[i] << " ";
 }
+
 int main()
 {
 	int arr[100];
-	int arrLength = 0;
+	int numberOfElements = 0;
 
-	cout << "\n\nArray Length: " << FillArrayWithValues(arr, arrLength);
+	FillArrayWithValues(arr, numberOfElements);
 	
+	cout << "\nArray Length: ";
+	cout << numberOfElements;
+
 	cout << "\n\nArray Elements: ";
-	PrintArray(arr, arrLength);
+	PrintArray(arr, numberOfElements);
 
 	cout << endl;
 }
