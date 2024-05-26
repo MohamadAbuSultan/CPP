@@ -26,14 +26,15 @@ void PrintArray(int arr[100], int arrLength) {
 		cout << arr[i] << " ";
 }
 
-int ReturnIndexNumber(int arr[100], int arrLength, int Number) {
+int FindNumberPositionInArray(int arr[100], int arrLength, int Number) {
 	for (int i = 0; i < arrLength; i++)
 		if (arr[i] == Number) return i;
 	return -1;
 }
 
 bool CheckNumberInArray(int arr[100], int arrLength, int Number) {
-	return ReturnIndexNumber(arr, arrLength, Number) >= 0;
+	return FindNumberPositionInArray(arr, arrLength, Number) != -1;
+	// return FindNumberPositionInArray(arr, arrLength, Number) >= 0;
 }
 
 int main()
@@ -42,17 +43,20 @@ int main()
 	
 	int arr[100];
 	int arrLength = ReadPositiveNumber("Enter A positive Number: ");
-
 	FillArrayWithRandomValues(arr, arrLength);
 
+	cout << "Array Elements: ";
 	PrintArray(arr, arrLength);
 
-	int Number = ReadPositiveNumber("Enter A Number To Search For: ");
+	int Number = ReadPositiveNumber("\n\nEnter A Number To Search For: ");
 
-	cout << "Number You are Looking For: " << Number;
+	cout << "\n\nNumber You are Looking For: " << Number;
 
+	cout << "\n\n";
+
+	if (!CheckNumberInArray(arr, arrLength, Number)) 
+		cout << "No its not found";
+	else 
+		cout << "Yes Its Found";
 	cout << endl;
-
-	if (CheckNumberInArray(arr, arrLength, Number)) cout << "Yes Its Found";
-	else cout << "No its not found";
 }
