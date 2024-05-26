@@ -32,11 +32,9 @@ void PrintArray(int arr[100], int arrLength) {
 }
 
 void CopyReversedArray(int arrSource[100],int arrDistination[100], int arrLength) {
-	int Counter = 0;
 	for (int i = arrLength - 1; i >= 0; i--)
 	{
-		arrDistination[i] = arrSource[Counter];
-		Counter++;
+		arrDistination[arrLength - 1 - i] = arrSource[i];
 	}
 }
 
