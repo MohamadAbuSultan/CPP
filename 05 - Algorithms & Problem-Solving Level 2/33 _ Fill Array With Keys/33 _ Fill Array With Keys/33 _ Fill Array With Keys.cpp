@@ -13,8 +13,7 @@ int ReadPostiveNumber(string Message) {
 }
 
 int GenerateRandomNumber(int From, int To) {
-	int randNumber = rand() % (To - From + 1) + From;
-	return randNumber;		
+	return rand() % (To - From + 1) + From;
 }
 
 enum enCharType { SmallLetter = 1, CapitalLetter = 2, SpecialCharacter = 3, digit = 4 };
@@ -29,7 +28,7 @@ char GetRandomCharacter(enCharType charType) {
 	case CapitalLetter:
 	{
 		return char(GenerateRandomNumber(65, 90));
-			break;
+		break;
 	}
 	case enCharType::SpecialCharacter:
 	{
@@ -64,9 +63,7 @@ string GenerateKey() {
 
 void FillArrayWithKeys(string arr[100], int arrLength) {
 	for (int i = 1; i <= arrLength; i++)
-	{
 		arr[i] = GenerateKey();
-	}
 }
 
 void PrintArray(string arr[100], int arrLength) {
