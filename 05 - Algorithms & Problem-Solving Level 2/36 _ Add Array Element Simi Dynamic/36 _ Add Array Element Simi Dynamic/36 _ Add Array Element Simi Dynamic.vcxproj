@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c70ecbaf-a71e-4fd1-9d0d-33f8ac82ecf8}</ProjectGuid>
+    <ProjectGuid>{5b134d85-dcfb-4ee8-9c1c-ca1ae2349001}</ProjectGuid>
     <RootNamespace>My36AddArrayElementSimiDynamic</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
