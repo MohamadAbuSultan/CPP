@@ -13,8 +13,8 @@ int ReadNumber() {
 
 void AddArrayElement(int number, int arr[100], int& numberOfElements)
 {
-	numberOfElements++;
-	arr[numberOfElements - 1] = number;
+	
+	arr[numberOfElements++ - 1] = number;
 }
 
 void InputUserNumberInArray(int arr[100], int& numberOfElements) {
