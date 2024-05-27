@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "45 _ Count Negative Numbers in Array", "45 _ Count Negative Numbers in Array\45 _ Count Negative Numbers in Array.vcxproj", "{2413C4EC-8B9F-4DB2-B36D-E6C357976ABA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2413C4EC-8B9F-4DB2-B36D-E6C357976ABA}.Debug|x64.ActiveCfg = Debug|x64
+		{2413C4EC-8B9F-4DB2-B36D-E6C357976ABA}.Debug|x64.Build.0 = Debug|x64
+		{2413C4EC-8B9F-4DB2-B36D-E6C357976ABA}.Debug|x86.ActiveCfg = Debug|Win32
+		{2413C4EC-8B9F-4DB2-B36D-E6C357976ABA}.Debug|x86.Build.0 = Debug|Win32
+		{2413C4EC-8B9F-4DB2-B36D-E6C357976ABA}.Release|x64.ActiveCfg = Release|x64
+		{2413C4EC-8B9F-4DB2-B36D-E6C357976ABA}.Release|x64.Build.0 = Release|x64
+		{2413C4EC-8B9F-4DB2-B36D-E6C357976ABA}.Release|x86.ActiveCfg = Release|Win32
+		{2413C4EC-8B9F-4DB2-B36D-E6C357976ABA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C0A9E13-06B3-4F94-9529-076D9AC6D2FD}
+	EndGlobalSection
+EndGlobal
