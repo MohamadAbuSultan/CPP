@@ -1,0 +1,3 @@
+﻿  50 _ MySqrt.cpp
+D:\My_Learning\CPP\05 - Algorithms & Problem-Solving Level 2\50 _ MySqrt\50 _ MySqrt\50 _ MySqrt.cpp(6,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  50 _ MySqrt.vcxproj -> D:\My_Learning\CPP\05 - Algorithms & Problem-Solving Level 2\50 _ MySqrt\x64\Debug\50 _ MySqrt.exe
