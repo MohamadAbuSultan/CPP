@@ -1,3 +1,5 @@
 ﻿  47 _ MyRound.cpp
-D:\My_Learning\CPP\05 - Algorithms & Problem-Solving Level 2\47 _ MyRound\47 _ MyRound\47 _ MyRound.cpp(13,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\My_Learning\CPP\05 - Algorithms & Problem-Solving Level 2\47 _ MyRound\47 _ MyRound\47 _ MyRound.cpp(23,11): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+D:\My_Learning\CPP\05 - Algorithms & Problem-Solving Level 2\47 _ MyRound\47 _ MyRound\47 _ MyRound.cpp(25,11): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+D:\My_Learning\CPP\05 - Algorithms & Problem-Solving Level 2\47 _ MyRound\47 _ MyRound\47 _ MyRound.cpp(27,10): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
   47 _ MyRound.vcxproj -> D:\My_Learning\CPP\05 - Algorithms & Problem-Solving Level 2\47 _ MyRound\x64\Debug\47 _ MyRound.exe
