@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My_Learning\\CPP\\05 - Algorithms \u0026 Problem-Solving Level 2\\42 _ Count Odd Numbers in Array\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59BC16C3-24DB-42BA-8205-880F42C236ED}|42 _ Count Odd Numbers in Array\\42 _ Count Odd Numbers in Array.vcxproj|D:\\My_Learning\\CPP\\05 - Algorithms \u0026 Problem-Solving Level 2\\42 _ Count Odd Numbers in Array\\42 _ Count Odd Numbers in Array\\42 _ Count Odd Numbers in Array.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59BC16C3-24DB-42BA-8205-880F42C236ED}|42 _ Count Odd Numbers in Array\\42 _ Count Odd Numbers in Array.vcxproj|solutionrelative:42 _ Count Odd Numbers in Array\\42 _ Count Odd Numbers in Array.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "42 _ Count Odd Numbers in Array.cpp",
+              "DocumentMoniker": "D:\\My_Learning\\CPP\\05 - Algorithms \u0026 Problem-Solving Level 2\\42 _ Count Odd Numbers in Array\\42 _ Count Odd Numbers in Array\\42 _ Count Odd Numbers in Array.cpp",
+              "RelativeDocumentMoniker": "42 _ Count Odd Numbers in Array\\42 _ Count Odd Numbers in Array.cpp",
+              "ToolTip": "D:\\My_Learning\\CPP\\05 - Algorithms \u0026 Problem-Solving Level 2\\42 _ Count Odd Numbers in Array\\42 _ Count Odd Numbers in Array\\42 _ Count Odd Numbers in Array.cpp",
+              "RelativeToolTip": "42 _ Count Odd Numbers in Array\\42 _ Count Odd Numbers in Array.cpp",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-27T14:04:44.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
