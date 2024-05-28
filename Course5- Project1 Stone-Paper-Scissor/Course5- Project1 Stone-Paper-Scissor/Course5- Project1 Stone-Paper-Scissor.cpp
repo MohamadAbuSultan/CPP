@@ -108,20 +108,35 @@ void PlayRound(int roundNumber, int& userWins, int& aiWins, int& draw) {
 	Beep(500, 500);
 }
 
+char AskUserToPlayAgain() {
+	char playAgain;
+	cout << "Do you want to play again? (Y/N): ";
+	cin >> playAgain;
+	return playAgain == 'y';
+}
+
 void PlayGame() {
-	int arrLength;
-	arrLength = ReadPositiveNumber("How Many Rounds Do You Want To Play? 1 to 10:\n");
-	
-	int userWins = 0, aiWins = 0, draw = 0;
+	char playAgain;
+	do {
+		int arrLength;
+		arrLength = ReadPositiveNumber("How Many Rounds Do You Want To Play? 1 to 10:\n");
 
-	for (int i = 1; i <= arrLength; i++) {
-		PlayRound(i, userWins, aiWins, draw);
-	}
+		int userWins = 0, aiWins = 0, draw = 0;
 
-	cout << "\nResults:\n";
-	cout << "User Wins: " << userWins << endl;
-	cout << "AI Wins: " << aiWins << endl;
-	cout << "draw: " << draw << endl;
+		for (int i = 1; i <= arrLength; i++) {
+			PlayRound(i, userWins, aiWins, draw);
+		}
+
+		cout << "\nResults:\n";
+		cout << "User Wins: " << userWins << endl;
+		cout << "AI Wins: " << aiWins << endl;
+		cout << "draw: " << draw << endl;
+
+		cout << "Do you want to play again? (Y/N): ";
+		cin >> playAgain;
+		
+		system("COLOR 0F");
+	} while (playAgain == 'y' || playAgain == 'Y');
 }
 
 int main()
