@@ -38,20 +38,20 @@ enChoice MakeDecision(bool isUser) {
 	return enChoice(choice);
 }
 
+void PrintChoice(enChoice choice) {
+	switch (choice) {
+		case stone: cout << "Stone\n"; break;
+		case paper: cout << "Paper\n"; break;
+		case scissors: cout << "Scissors\n"; break;
+	}
+}
+
 void PrintRoundResult(enChoice user, enChoice ai, int& userWins, int& aiWins, int& draw) {
 	cout << "Your choice: ";
-	switch (user) {
-		case stone: cout << "Stone\n"; break;
-		case paper: cout << "Paper\n"; break;
-		case scissors: cout << "Scissors\n"; break;
-	}
+	PrintChoice(user);
 
 	cout << "AI's choice: ";
-	switch (ai) {
-		case stone: cout << "Stone\n"; break;
-		case paper: cout << "Paper\n"; break;
-		case scissors: cout << "Scissors\n"; break;
-	}
+	PrintChoice(ai);
 
 	if (user == ai) {
 		cout << "It's a draw!\n";
@@ -75,18 +75,10 @@ void PlayRound(int roundNumber, int& userWins, int& aiWins, int& draw) {
 	enChoice ai = MakeDecision(false);
 
 	cout << "Your choice: ";
-	switch (user) {
-		case stone: cout << "Stone\n"; break;
-		case paper: cout << "Paper\n"; break;
-		case scissors: cout << "Scissors\n"; break;
-	}
+	PrintChoice(user);
 
 	cout << "AI's choice: ";
-	switch (ai) {
-		case stone: cout << "Stone\n"; break;
-		case paper: cout << "Paper\n"; break;
-		case scissors: cout << "Scissors\n"; break;
-	}
+	PrintChoice(ai);
 
 	if (user == ai) {
 		cout << "It's a draw!\n";
@@ -105,7 +97,7 @@ void PlayRound(int roundNumber, int& userWins, int& aiWins, int& draw) {
 		system("COLOR 6E");
 		++aiWins;
 	}
-	Beep(500, 500);
+	// Beep(500, 500);
 }
 
 char AskUserToPlayAgain() {
@@ -115,9 +107,17 @@ char AskUserToPlayAgain() {
 	return playAgain == 'y';
 }
 
+void ResetScreen()
+{
+	system("cls");
+	system("color 0F");
+}
+
 void PlayGame() {
 	char playAgain;
 	do {
+		ResetScreen();
+
 		int arrLength;
 		arrLength = ReadPositiveNumber("How Many Rounds Do You Want To Play? 1 to 10:\n");
 
@@ -134,8 +134,7 @@ void PlayGame() {
 
 		cout << "Do you want to play again? (Y/N): ";
 		cin >> playAgain;
-		
-		system("COLOR 0F");
+	
 	} while (playAgain == 'y' || playAgain == 'Y');
 }
 
