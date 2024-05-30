@@ -16,8 +16,9 @@ int main()
 
 	int arr1[5] = { 200,100,50,25,30 };
 	int a, b, c; // garbage value : لأنوا ما أعطيناها قيمة مبدئية ، زي 0 مثلاً
-				 // initial values لازم
-
+				 // initial values لازم نحط
+	// If we don't assign initial values to variables, they hold garbage values. 
+	// It's essential to initialize them, for instance, to zero, to avoid unexpected behavior
 	a = 10;
 	b = 20;
 	a++;

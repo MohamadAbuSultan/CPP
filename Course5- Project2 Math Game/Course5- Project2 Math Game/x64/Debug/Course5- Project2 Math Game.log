@@ -1,4 +1,0 @@
-﻿  Course5- Project2 Math Game.cpp
-D:\My_Learning\CPP\Course5- Project2 Math Game\Course5- Project2 Math Game\Course5- Project2 Math Game.cpp(62,1): warning C4715: 'SelectQuestionLevel': not all control paths return a value
-D:\My_Learning\CPP\Course5- Project2 Math Game\Course5- Project2 Math Game\Course5- Project2 Math Game.cpp(79,1): warning C4715: 'SelectOperationType': not all control paths return a value
-  Course5- Project2 Math Game.vcxproj -> D:\My_Learning\CPP\Course5- Project2 Math Game\x64\Debug\Course5- Project2 Math Game.exe
