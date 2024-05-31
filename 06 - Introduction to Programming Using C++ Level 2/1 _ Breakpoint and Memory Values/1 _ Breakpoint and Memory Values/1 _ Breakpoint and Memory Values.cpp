@@ -14,7 +14,7 @@ int MySum(int a, int b)
 int main()
 {
 
-	int arr1[5] = { 200,100,50,25,30 };
+ 	int arr1[5] = { 200,100,50,25,30 };
 	int a, b, c; // garbage value : لأنوا ما أعطيناها قيمة مبدئية ، زي 0 مثلاً
 				 // initial values لازم نحط
 	// If we don't assign initial values to variables, they hold garbage values. 
