@@ -6,7 +6,7 @@ using namespace std;
 namespace MyLib {
 
 	void Test() {
-		cout << "Hello , this is my first function in my first library";
+		cout << "Hello , this is my first function in my first library!" << endl;
 	}
 
 	int Sum2Numbers(int Number1, int Number2)

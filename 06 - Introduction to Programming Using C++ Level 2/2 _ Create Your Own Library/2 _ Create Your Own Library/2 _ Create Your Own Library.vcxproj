@@ -130,6 +130,7 @@
     <ClCompile Include="2 _ Create Your Own Library.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GenerateNumbers.h" />
     <ClInclude Include="MyInputLib.h" />
     <ClInclude Include="MyLib.h" />
   </ItemGroup>
