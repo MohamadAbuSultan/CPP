@@ -6,11 +6,10 @@ int main()
 {
 	// Syntax
 	//	     for (rangeDeclaration : rangeExpression)
-	//			{
-	//			
-	//			}
-	int Array1[] = { 1,2,3,4 };
-	// array is a collection of items
+	//		 {
+	//		 
+	//		 }
+	int Array1[] = { 1,2,3,4 }; // array is a collection of items
 	// بيعتبر المصفوفة هي مجموعة من العناصر
 	for (int n : Array1)
 	{
@@ -21,6 +20,13 @@ int main()
 	{
 		cout << n << endl;
 	}
+
+	string Names[] = { "Mohamad", "Khaled", "Naim" };
+	for (string Name : Names)
+	{
+		cout << Name << endl;
+	}
+
 	return 0;
 
 }
