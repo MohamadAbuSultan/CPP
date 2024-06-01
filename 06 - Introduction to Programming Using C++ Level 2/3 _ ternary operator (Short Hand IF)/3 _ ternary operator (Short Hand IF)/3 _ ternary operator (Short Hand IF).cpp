@@ -6,6 +6,7 @@ int main()
 {
 	/* 
 	ternary operator (Short Hand IF) 
+	sytax:
 	   => condition ? expression1 : expression2; 
 						True	  :	False
 	*/
@@ -18,7 +19,7 @@ int main()
 	(Mark >= 50) ? cout << "Pass" : cout << "Fail";
 	cout << endl;
 
-	(Mark >= 50) ? cout << "Pass" : (Mark >= 200) ? cout << "Pass" : cout << "Fail";;
+	(Mark >= 50) ? cout << "Pass" : (Mark >= 200) ? cout << "Pass" : cout << "Fail";
 
 	cout << endl << endl;
 	// HOMEWORK 
@@ -28,4 +29,6 @@ int main()
 	cout << endl << endl;
 	(Number == 0) ? cout << "Number is zero" : ((Number > 0) ? cout << "Positive" : cout << "Negative");
 	cout << endl << endl;
+
+	return 0;
 }
