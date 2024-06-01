@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{AFEA63F1-0A7E-49FB-AFF6-5466C5314628}|5 _ Validation Number Only\\5 _ Validation Number Only.vcxproj|D:\\My_Learning\\CPP\\06 - Introduction to Programming Using C\u002B\u002B Level 2\\5 _ Validation Number Only\\5 _ Validation Number Only\\5 _ Validation Number Only.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AFEA63F1-0A7E-49FB-AFF6-5466C5314628}|5 _ Validation Number Only\\5 _ Validation Number Only.vcxproj|solutionrelative:5 _ Validation Number Only\\5 _ Validation Number Only.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFEA63F1-0A7E-49FB-AFF6-5466C5314628}|5 _ Validation Number Only\\5 _ Validation Number Only.vcxproj|D:\\My_Learning\\CPP\\06 - Introduction to Programming Using C\u002B\u002B Level 2\\5 _ Validation Number Only\\5 _ Validation Number Only\\ValidateReadNumber.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AFEA63F1-0A7E-49FB-AFF6-5466C5314628}|5 _ Validation Number Only\\5 _ Validation Number Only.vcxproj|solutionrelative:5 _ Validation Number Only\\ValidateReadNumber.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +30,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValidateReadNumber.h",
+              "DocumentMoniker": "D:\\My_Learning\\CPP\\06 - Introduction to Programming Using C\u002B\u002B Level 2\\5 _ Validation Number Only\\5 _ Validation Number Only\\ValidateReadNumber.h",
+              "RelativeDocumentMoniker": "5 _ Validation Number Only\\ValidateReadNumber.h",
+              "ToolTip": "D:\\My_Learning\\CPP\\06 - Introduction to Programming Using C\u002B\u002B Level 2\\5 _ Validation Number Only\\5 _ Validation Number Only\\ValidateReadNumber.h",
+              "RelativeToolTip": "5 _ Validation Number Only\\ValidateReadNumber.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-01T17:40:12.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "5 _ Validation Number Only.cpp",
               "DocumentMoniker": "D:\\My_Learning\\CPP\\06 - Introduction to Programming Using C\u002B\u002B Level 2\\5 _ Validation Number Only\\5 _ Validation Number Only\\5 _ Validation Number Only.cpp",
               "RelativeDocumentMoniker": "5 _ Validation Number Only\\5 _ Validation Number Only.cpp",
               "ToolTip": "D:\\My_Learning\\CPP\\06 - Introduction to Programming Using C\u002B\u002B Level 2\\5 _ Validation Number Only\\5 _ Validation Number Only\\5 _ Validation Number Only.cpp",
               "RelativeToolTip": "5 _ Validation Number Only\\5 _ Validation Number Only.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-01T12:58:37.179Z",
               "EditorCaption": ""

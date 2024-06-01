@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="5 _ Validation Number Only.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ValidateReadNumber.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -2,26 +2,9 @@
 #include <iostream>
 using namespace std;
 
-int ReadNumber()
-{
+#include "ValidateReadNumber.h"
 
-    int Number;
-
-    cout << "Enter a Number : " << endl;
-    cin >> Number;
-
-    while (cin.fail())
-    {
-        cin.clear();
-        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
-        cout << "Invalid Number , Enter a valid one" << endl;
-        cin >> Number;
-    }
-
-    return Number;
-
-}
+using namespace ValidateReadNumber;
 
 int main()
 {
