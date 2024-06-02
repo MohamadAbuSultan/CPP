@@ -5,9 +5,12 @@ using namespace std;
 // function declaration
 void add(int, int);
 
+// Function Declaration Vs Definition
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "\n\nFunction Declaration Vs Definition: \n\n";
+
     add(10, 20);
 }
 

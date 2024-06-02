@@ -1,8 +1,6 @@
-﻿
+﻿#include <iostream>
 
-#include <iostream>
 using namespace std;
-
 
 // Default Parameters = Optional Parameters = Default Value : برامتر إختياري 
 int MySum(int a, int b, int c = 0, int d = 0)
