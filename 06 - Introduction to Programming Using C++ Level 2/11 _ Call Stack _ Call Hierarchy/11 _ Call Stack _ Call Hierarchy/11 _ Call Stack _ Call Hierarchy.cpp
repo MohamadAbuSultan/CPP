@@ -5,13 +5,13 @@ using namespace std;
 // in stack : Last In First Out (LIFO)
 // call stack : functions تدرج إستدعاءالفنكنشنز
  
-void Function4()
+void Function44()
 {
 	cout << "Its Function4" << endl;
 }
 void Function3()
 {
-	Function4();
+	Function44();
 }
 void Function2()
 {
