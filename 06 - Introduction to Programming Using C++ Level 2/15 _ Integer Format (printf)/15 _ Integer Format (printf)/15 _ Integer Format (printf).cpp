@@ -18,6 +18,7 @@ int main()
 
 	int Number1 = 20, Number2 = 30;
 	printf("The result of %d + %d = %d \n", Number1, Number2, Number1 + Number2);
+	printf("The result of %d / %d = %d \n", Number2, Number1, Number2 / Number1);
 
 	return 0;
 }
