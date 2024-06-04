@@ -26,7 +26,21 @@ int main()
 	cout << endl << endl;
 	
 
+	int x1[3][4] = {
+					{1,2,3,4},
+					{5,6,7,8},
+					{9,10,11,12}
+	};
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 4; j++)
+		{
+			cout << setfill('0') << setw(2) << x1[i][j] << " ";
+		}
+		cout << endl;
+	}
 
+	cout << endl << endl;
 
 	// Home Work
 
@@ -47,6 +61,7 @@ int main()
 		}
 		cout << endl;
 	}
+
 
 	/*
 	int x2[10][10] = {
