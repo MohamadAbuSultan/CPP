@@ -45,8 +45,6 @@ int main()
 	//	cout << Number << endl;
 	//}
 
-
-
 	// HomeWork
 	vector <int> vNumbers;
 	ReadNumbers(vNumbers);
