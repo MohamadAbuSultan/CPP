@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1521b314-9021-40c1-bd3e-17afa36c8040}</ProjectGuid>
+    <ProjectGuid>{7096174c-29ea-4a37-baf6-be0658ee65a1}</ProjectGuid>
     <RootNamespace>My03SumEachRowinMatrixinArray</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
