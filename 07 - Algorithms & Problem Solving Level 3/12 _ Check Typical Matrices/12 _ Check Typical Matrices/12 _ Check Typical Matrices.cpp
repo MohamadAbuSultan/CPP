@@ -10,7 +10,7 @@ int GenerateRandomNumber(int From, int To) {
 void FillArrayWithRandomNumbers(int arr[3][3], short Rows, short Cols) {
 	for (short i = 0; i < Rows; i++)
 		for (short j = 0; j < Cols; j++)
-			arr[i][j] = GenerateRandomNumber(1, 2);
+			arr[i][j] = GenerateRandomNumber(1, 10);
 }
 
 void PrintMatrix(int arr[3][3], short Rows, short Cols) {
