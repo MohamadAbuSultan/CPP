@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\22 _ Fibonacci Series With Recursion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11EE9465-E05E-4996-8B2B-E7CD54207A8E}|22 _ Fibonacci Series With Recursion\\22 _ Fibonacci Series With Recursion.vcxproj|D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\22 _ Fibonacci Series With Recursion\\22 _ Fibonacci Series With Recursion\\22 _ Fibonacci Series With Recursion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{11EE9465-E05E-4996-8B2B-E7CD54207A8E}|22 _ Fibonacci Series With Recursion\\22 _ Fibonacci Series With Recursion.vcxproj|solutionrelative:22 _ Fibonacci Series With Recursion\\22 _ Fibonacci Series With Recursion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "22 _ Fibonacci Series With Recursion.cpp",
+              "DocumentMoniker": "D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\22 _ Fibonacci Series With Recursion\\22 _ Fibonacci Series With Recursion\\22 _ Fibonacci Series With Recursion.cpp",
+              "RelativeDocumentMoniker": "22 _ Fibonacci Series With Recursion\\22 _ Fibonacci Series With Recursion.cpp",
+              "ToolTip": "D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\22 _ Fibonacci Series With Recursion\\22 _ Fibonacci Series With Recursion\\22 _ Fibonacci Series With Recursion.cpp",
+              "RelativeToolTip": "22 _ Fibonacci Series With Recursion\\22 _ Fibonacci Series With Recursion.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-07T16:53:55.43Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
