@@ -15,7 +15,9 @@ void PrintUpperFirstLetter(string Word) {
 	for (int i = 0; i < Word.length(); i++)
 	{
 		if (Word[i] != ' ' && isFirstLetter)
-			cout << char(toupper(Word[i])) << " ";
+			cout  << char(toupper(Word[i]));
+		else if (i != Word.length())
+			cout << Word[i];
 		isFirstLetter = (Word[i] == ' ' ? true : false);
 	}
 }
