@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\Count Small-Capital Letters\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3121D2B6-54AE-480A-8D40-43C80084D300}|Count Small-Capital Letters\\Count Small-Capital Letters.vcxproj|D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\Count Small-Capital Letters\\Count Small-Capital Letters\\Count Small-Capital Letters.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3121D2B6-54AE-480A-8D40-43C80084D300}|Count Small-Capital Letters\\Count Small-Capital Letters.vcxproj|solutionrelative:Count Small-Capital Letters\\Count Small-Capital Letters.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Count Small-Capital Letters.cpp",
+              "DocumentMoniker": "D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\Count Small-Capital Letters\\Count Small-Capital Letters\\Count Small-Capital Letters.cpp",
+              "RelativeDocumentMoniker": "Count Small-Capital Letters\\Count Small-Capital Letters.cpp",
+              "ToolTip": "D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\Count Small-Capital Letters\\Count Small-Capital Letters\\Count Small-Capital Letters.cpp",
+              "RelativeToolTip": "Count Small-Capital Letters\\Count Small-Capital Letters.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-21T13:27:07.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
