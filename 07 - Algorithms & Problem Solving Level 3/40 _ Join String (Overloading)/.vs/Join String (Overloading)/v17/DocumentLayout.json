@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\40 _ Join String (Overloading)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{974581B0-20E5-4FA8-AADD-AD197A09A9AF}|Join String (Overloading)\\Join String (Overloading).vcxproj|D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\40 _ Join String (Overloading)\\Join String (Overloading)\\Join String (Overloading).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{974581B0-20E5-4FA8-AADD-AD197A09A9AF}|Join String (Overloading)\\Join String (Overloading).vcxproj|solutionrelative:Join String (Overloading)\\Join String (Overloading).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Join String (Overloading).cpp",
+              "DocumentMoniker": "D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\40 _ Join String (Overloading)\\Join String (Overloading)\\Join String (Overloading).cpp",
+              "RelativeDocumentMoniker": "Join String (Overloading)\\Join String (Overloading).cpp",
+              "ToolTip": "D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\40 _ Join String (Overloading)\\Join String (Overloading)\\Join String (Overloading).cpp",
+              "RelativeToolTip": "Join String (Overloading)\\Join String (Overloading).cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-17T08:13:02.555Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
