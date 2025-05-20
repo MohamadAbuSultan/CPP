@@ -1,0 +1,5 @@
+Account Number: A150
+Pin Code: 1234
+Name: Mohammed Abu-Hadhoud
+Phone: 079939999
+Account Balance: 5000
