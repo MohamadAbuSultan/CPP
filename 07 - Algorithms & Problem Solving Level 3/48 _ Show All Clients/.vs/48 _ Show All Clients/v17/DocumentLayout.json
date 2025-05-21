@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\48 _ Show All Clients\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78032115-B2B6-4D8F-B75F-FAA357720C06}|48 _ Show All Clients\\48 _ Show All Clients.vcxproj|D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\48 _ Show All Clients\\48 _ Show All Clients\\48 _ Show All Clients.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78032115-B2B6-4D8F-B75F-FAA357720C06}|48 _ Show All Clients\\48 _ Show All Clients.vcxproj|solutionrelative:48 _ Show All Clients\\48 _ Show All Clients.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "48 _ Show All Clients.cpp",
+              "DocumentMoniker": "D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\48 _ Show All Clients\\48 _ Show All Clients\\48 _ Show All Clients.cpp",
+              "RelativeDocumentMoniker": "48 _ Show All Clients\\48 _ Show All Clients.cpp",
+              "ToolTip": "D:\\My_Learning\\CPP\\07 - Algorithms \u0026 Problem Solving Level 3\\48 _ Show All Clients\\48 _ Show All Clients\\48 _ Show All Clients.cpp",
+              "RelativeToolTip": "48 _ Show All Clients\\48 _ Show All Clients.cpp",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvw0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-21T09:35:18.391Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
